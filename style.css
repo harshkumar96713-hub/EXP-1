@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+}
+h1 {
+  position: absolute;
+  top: 140px;  
+  color: rgb(6, 25, 41);
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.container {
+ 
+    font-size: larger;
+    font-weight: 700;
+    height:auto;
+   width: 500px;
+    padding: 20px 50px 20px 50px;
+    border-radius:2rem;
+    backdrop-filter: blur(10px);
+     background: rgba(209, 204, 204, 0.318);
+     border: 2px solid  rgba(10, 10, 10, 0.5);
+
+}
+
+
+.btn{
+  
+    font-size: large;
+    width: 10rem;
+    padding: 10px 20px;
+    background-color: rgb(23, 94, 236);
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0,auto;
+    border-radius: 20px;
+
+}
+
+#mess{
+    font-size:x-large;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(240, 11, 11);
+}
